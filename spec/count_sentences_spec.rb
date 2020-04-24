@@ -43,9 +43,9 @@ describe String do
     end
 
     it "returns the number of sentences in a complex string" do
-      complex_string = "This, well, is a sentence. This is too!! And so is this, I think? Woo..."
+      complex_string = 
       expect(complex_string.count_sentences).to eq(4)
-    end
+    end"This, well, is a sentence. This is too!! And so is this, I think? Woo..."
   end
 
 
